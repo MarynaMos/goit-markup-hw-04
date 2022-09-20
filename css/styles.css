@@ -424,10 +424,13 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
+
 }
 .client-item {
     width: 106px;
     height: 60px;
+
     fill: #AFB1B8;
 }
 
