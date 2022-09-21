@@ -121,7 +121,8 @@ a {
 .site-nav .link.current {
     color: #2196F3;
 }
-.site-nav a:hover, .site-nav a:focus {
+.site-nav a:hover,
+.site-nav a:focus {
     color: #2196F3;
 }
 
@@ -138,8 +139,8 @@ a {
     letter-spacing: 0.02em;
 
 }
-.contacts .link:hover, 
-.contacts-list .link:focus {
+.link:hover, 
+.link:focus {
     color: #2196F3;
 }
 .contacts .item + .item {
@@ -388,14 +389,13 @@ button {
     width: 44px;
     height: 44px;
 }
-.social.list:hover,
-.social.list:hover {
+.social-link:hover,
+.social-link:focus {
 background-color: #2196F3;
 border-radius: 50%;
 }
 .social-link:hover .social,
-.social-link:hover .social {
-
+.social-link:focus .social {
     fill: #FFFFFF;
 }
 
@@ -531,9 +531,7 @@ address {
     color: rgba(255, 255, 255, 0.6);
     line-height: 1.7;
 }
-.contacts-footer a:hover, .contacts-footer a:focus {
-    color: #2196F3;
-}
+
 .contacts-footer {
     margin-top: 9px;
 }
